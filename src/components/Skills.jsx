@@ -3,10 +3,11 @@ import { motion } from 'framer-motion';
 import SectionBackground from './SectionBackground';
 
 const skills = [
-    { category: "Cyber Security", items: ["Wireshark", "Nmap", "Metasploit", "Burp Suite"] },
-    { category: " Platforms", items: ["Windows", "Linux"] },
-    { category: "Tools", items: ["Git", "VS Code", "Virtual Machines",] },
-    { category: "Languages", items: ["Python", "JavaScript", "C++", "Bash", "HTML", "CSS"] },
+    { category: "Programming Languages", items: ["C++", "Python", "Bash"] },
+    { category: "Technologies/Tools", items: ["GitHub", "Wireshark", "Burp Suite", "Nmap", "Metasploit", "Ethical Hacking Tools", "Networking Tools"] },
+    { category: "Operating Systems", items: ["Windows", "Linux"] },
+    { category: "Soft Skills", items: ["Teamwork", "Problem-Solving", "Communication", "Adaptability"] },
+    { category: "ML", items: ["TensorFlow", "Scikit learn", "Regression", "Classification", "Deep Learning Models", "Optimization Methods"] },
 ];
 
 const Skills = () => {
