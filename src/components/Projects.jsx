@@ -1,0 +1,70 @@
+import React from 'react';
+import { motion } from 'framer-motion';
+import SectionBackground from './SectionBackground';
+
+const projects = [
+    {
+        title: "AI Portfolio",
+        description: "A premium portfolio website built with React and TailwindCSS.",
+        tags: ["React", "TailwindCSS", "Framer Motion"],
+        link: "#"
+    },
+    {
+        title: "E-Commerce Dashboard",
+        description: "Real-time analytics dashboard for online stores.",
+        tags: ["Next.js", "TypeScript", "Chart.js"],
+        link: "#"
+    },
+    {
+        title: "OSint-Threatdetection Dashboard ",
+        description: "CyberSecurity Dashboard for OSint-Threatdetection",
+        tags: ["Python"],
+        link: "https://github.com/jshivanshuu/osint-threat-intelligence-main/tree/main/osint-threat-intelligence-main"
+    },
+];
+
+const Projects = () => {
+    return (
+        <section className="py-20 px-8 bg-primary text-secondary relative overflow-hidden">
+            <SectionBackground />
+            <div className="max-w-6xl mx-auto relative z-10">
+                <motion.h2
+                    initial={{ opacity: 0, y: -20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    className="text-3xl md:text-5xl font-bold mb-16 text-center text-white"
+                >
+                    Featured Work
+                </motion.h2>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    {projects.map((project, index) => (
+                        <motion.div
+                            key={index}
+                            initial={{ opacity: 0, y: 20 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ delay: index * 0.2 }}
+                            className="group relative bg-[#1a1a1a] rounded-2xl overflow-hidden hover:-translate-y-2 transition-transform duration-300"
+                        >
+                            <div className="h-48 bg-gray-800 flex items-center justify-center group-hover:bg-gray-700 transition-colors">
+                                <span className="text-gray-500 text-4xl">Project UI</span>
+                            </div>
+                            <div className="p-6">
+                                <h3 className="text-2xl font-bold mb-2 group-hover:text-accent transition-colors">{project.title}</h3>
+                                <p className="text-[#a1a1aa] mb-4">{project.description}</p>
+                                <div className="flex flex-wrap gap-2">
+                                    {project.tags.map(tag => (
+                                        <span key={tag} className="text-xs font-mono px-2 py-1 border border-white/10 rounded text-[#a1a1aa]">
+                                            {tag}
+                                        </span>
+                                    ))}
+                                </div>
+                            </div>
+                        </motion.div>
+                    ))}
+                </div>
+            </div>
+        </section>
+    );
+};
+
+export default Projects;
