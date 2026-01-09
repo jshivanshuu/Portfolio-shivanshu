@@ -4,22 +4,22 @@ import SectionBackground from './SectionBackground';
 
 const projects = [
     {
-        title: "AI Portfolio",
-        description: "A premium portfolio website built with React and TailwindCSS.",
-        tags: ["React", "TailwindCSS", "Framer Motion"],
-        link: "#"
-    },
-    {
-        title: "E-Commerce Dashboard",
-        description: "Real-time analytics dashboard for online stores.",
-        tags: ["Next.js", "TypeScript", "Chart.js"],
-        link: "#"
-    },
-    {
-        title: "OSint-Threatdetection Dashboard ",
-        description: "CyberSecurity Dashboard for OSint-Threatdetection",
-        tags: ["Python"],
+        title: "OSINT Dashboard",
+        description: "CyberSecurity Dashboard for OSINT threat detection and analysis.",
+        tags: ["Python", "Flask", "Cybersecurity"],
         link: "https://github.com/jshivanshuu/osint-threat-intelligence-main/tree/main/osint-threat-intelligence-main"
+    },
+    {
+        title: "Internship Recommender",
+        description: "ML-based recommendation system for internships based on preferences.",
+        tags: ["Python", "Machine Learning", "Scikit-learn"],
+        link: "#"
+    },
+    {
+        title: "False-Front (ongoing)",
+        description: "Advanced deceptive technology system for cybersecurity defense.",
+        tags: ["Cybersecurity", "Deception Tech", "Defense"],
+        link: "#"
     },
 ];
 
