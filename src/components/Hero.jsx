@@ -4,7 +4,7 @@ import SectionBackground from './SectionBackground';
 
 const Hero = () => {
     return (
-        <section className="h-screen w-full flex flex-col justify-center items-center bg-primary text-secondary relative overflow-hidden">
+        <section id="hero" className="h-screen w-full flex flex-col justify-center items-center bg-primary text-secondary relative overflow-hidden">
             <SectionBackground />
 
             <motion.div
@@ -16,7 +16,7 @@ const Hero = () => {
                 <h2 className="text-xl md:text-2xl font-light tracking-widest text-[#a1a1aa] mb-4">
                     HELLO, I AM
                 </h2>
-                <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white to-[#a1a1aa] bg-clip-text text-transparent">
+                <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">
                     Shivanshu Jha
                 </h1>
                 <p className="text-lg md:text-xl text-[#a1a1aa] max-w-2xl mx-auto leading-relaxed">
@@ -39,7 +39,7 @@ const Hero = () => {
                     <motion.a
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 0.95 }}
-                        href="#"
+                        href=""
                         target="_blank"
                         rel="noopener noreferrer"
                         className="p-3 bg-white/5 border border-white/10 rounded-full hover:bg-white/10 hover:border-accent/50 transition-colors"

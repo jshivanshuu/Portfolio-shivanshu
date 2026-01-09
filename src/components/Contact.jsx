@@ -3,10 +3,10 @@ import SectionBackground from './SectionBackground';
 
 const Contact = () => {
     return (
-        <section className="py-20 px-8 bg-primary text-center text-secondary border-t border-white/5 relative overflow-hidden">
+        <section id="contact" className="py-20 px-8 bg-primary text-center text-secondary border-t border-white/5 relative overflow-hidden">
             <SectionBackground />
             <div className="relative z-10">
-                <h2 className="text-3xl font-bold mb-6 text-white">Let's Connect</h2>
+                <h2 className="text-3xl font-bold mb-6 bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">Let's Connect</h2>
                 <p className="text-[#a1a1aa] mb-8 max-w-xl mx-auto">
                     Interested in working together? Feel free to reach out for collaborations or just a friendly hello.
                 </p>

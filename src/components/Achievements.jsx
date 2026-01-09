@@ -10,14 +10,14 @@ const achievements = [
 
 const Achievements = () => {
     return (
-        <section className="py-20 px-8 bg-primary text-secondary relative overflow-hidden">
+        <section id="milestones" className="py-20 px-8 bg-primary text-secondary relative overflow-hidden">
             <SectionBackground />
 
             <div className="max-w-7xl mx-auto relative z-10">
                 <motion.h2
                     initial={{ opacity: 0, scale: 0.9 }}
                     whileInView={{ opacity: 1, scale: 1 }}
-                    className="text-3xl md:text-5xl font-bold mb-16 text-center bg-gradient-to-r from-accent to-purple-500 bg-clip-text text-transparent"
+                    className="text-3xl md:text-5xl font-bold mb-16 text-center bg-gradient-to-r from-orange-400 to-red-600 bg-clip-text text-transparent"
                 >
                     Milestones
                 </motion.h2>

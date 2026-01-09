@@ -5,9 +5,12 @@ import Achievements from '../components/Achievements';
 import Projects from '../components/Projects';
 import Contact from '../components/Contact';
 
+import Navbar from '../components/Navbar';
+
 const Home = () => {
     return (
         <div className="bg-primary min-h-screen">
+            <Navbar />
             <Hero />
             <Skills />
             <Achievements />

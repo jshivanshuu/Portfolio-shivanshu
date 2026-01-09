@@ -12,14 +12,14 @@ const skills = [
 
 const Skills = () => {
     return (
-        <section className="py-20 px-8 bg-primary text-secondary relative overflow-hidden">
+        <section id="skills" className="py-20 px-8 bg-primary text-secondary relative overflow-hidden">
             <SectionBackground />
             <div className="max-w-6xl mx-auto relative z-10">
                 <motion.h2
                     initial={{ opacity: 0, x: -20 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.5 }}
-                    className="text-3xl md:text-5xl font-bold mb-12 text-center bg-gradient-to-r from-accent to-purple-500 bg-clip-text text-transparent"
+                    className="text-3xl md:text-5xl font-bold mb-12 text-center bg-gradient-to-r from-emerald-400 to-cyan-500 bg-clip-text text-transparent"
                 >
                     Technical Skills
                 </motion.h2>
