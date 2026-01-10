@@ -2,6 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import SectionBackground from './SectionBackground';
 
+import AnimatedHeading from './AnimatedHeading';
+
 const skills = [
     { category: "Programming Languages", items: ["C++", "Python", "Bash"] },
     { category: "Technologies/Tools", items: ["GitHub", "Wireshark", "Burp Suite", "Nmap", "Metasploit", "Ethical Hacking Tools", "Networking Tools"] },
@@ -15,14 +17,11 @@ const Skills = () => {
         <section id="skills" className="py-20 px-8 bg-primary text-secondary relative overflow-hidden">
             <SectionBackground />
             <div className="max-w-6xl mx-auto relative z-10">
-                <motion.h2
-                    initial={{ opacity: 0, x: -20 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.5 }}
-                    className="text-3xl md:text-5xl font-bold mb-12 text-center bg-gradient-to-r from-emerald-400 to-cyan-500 bg-clip-text text-transparent"
-                >
-                    Technical Skills
-                </motion.h2>
+                <AnimatedHeading
+                    text="Technical Skills"
+                    gradientClasses="from-emerald-400 to-cyan-500"
+                    borderColors={["#34d399", "#06b6d4"]} // Emerald-400, Cyan-500
+                />
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {skills.map((skillGroup, index) => (

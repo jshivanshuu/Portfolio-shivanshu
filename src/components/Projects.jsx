@@ -23,18 +23,18 @@ const projects = [
     },
 ];
 
+import AnimatedHeading from './AnimatedHeading';
+
 const Projects = () => {
     return (
         <section id="projects" className="py-20 px-8 bg-primary text-secondary relative overflow-hidden">
             <SectionBackground />
             <div className="max-w-6xl mx-auto relative z-10">
-                <motion.h2
-                    initial={{ opacity: 0, y: -20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    className="text-3xl md:text-5xl font-bold mb-16 text-center bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-transparent"
-                >
-                    Featured Work
-                </motion.h2>
+                <AnimatedHeading
+                    text="Featured Work"
+                    gradientClasses="from-purple-400 to-pink-600"
+                    borderColors={["#c084fc", "#db2777"]} // Purple-400, Pink-600
+                />
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {projects.map((project, index) => (

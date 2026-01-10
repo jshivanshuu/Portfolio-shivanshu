@@ -4,34 +4,36 @@ import SectionBackground from './SectionBackground';
 
 const certifications = [
     {
-        title: "AWS Certified Solutions Architect",
-        issuer: "Amazon Web Services",
-        date: "2023",
-        link: "https://aws.amazon.com/certification/",
-        description: "Validated expertise in designing distributed systems on AWS."
+        title: "CEH Certification (Ongoing)",
+        issuer: "EC-Council",
+        date: "2025",
+        link: "https://www.ec-council.org/ceh",
+        description: "Validated expertise in understanding cyber security."
     },
     {
-        title: "Meta Front-End Developer",
-        issuer: "Meta",
-        date: "2023",
-        link: "https://www.coursera.org/professional-certificates/meta-front-end-developer",
-        description: "Professional certification for advanced React and frontend development."
+        title: "Algorithmic ToolBox by Coursera",
+        issuer: "Coursera",
+        date: "2025",
+        link: "https://www.coursera.org/algorithmic-toolbox",
+        description: "Professional certification for advanced algorithms and data structures."
     },
     {
-        title: "Google UX Design Professional",
-        issuer: "Google",
-        date: "2022",
-        link: "https://www.coursera.org/professional-certificates/google-ux-design",
-        description: "Mastered the foundations of UX design and research."
+        title: "Fundamentals of peer to peer networks by Coursera",
+        issuer: "Coursera",
+        date: "2025",
+        link: "https://www.coursera.org/peer-to-peer-networks",
+        description: "Mastered the foundations of peer to peer networks."
     },
     {
-        title: "Advanced React Patterns",
-        issuer: "Frontend Masters",
-        date: "2022",
-        link: "https://frontendmasters.com",
-        description: "Deep dive into advanced React patterns and performance optimization."
+        title: "Operating Systems and you:Becoming a power user by Coursera",
+        issuer: "Coursera",
+        date: "2025",
+        link: "https://www.coursera.org/peer-to-peer-networks",
+        description: "Mastered the foundations of Operating Systems."
     },
 ];
+
+import AnimatedHeading from './AnimatedHeading';
 
 const Certifications = () => {
     return (
@@ -39,13 +41,11 @@ const Certifications = () => {
             <SectionBackground />
 
             <div className="max-w-7xl mx-auto relative z-10">
-                <motion.h2
-                    initial={{ opacity: 0, scale: 0.9 }}
-                    whileInView={{ opacity: 1, scale: 1 }}
-                    className="text-3xl md:text-5xl font-bold mb-16 text-center bg-gradient-to-r from-cyan-400 to-blue-600 bg-clip-text text-transparent"
-                >
-                    Certifications
-                </motion.h2>
+                <AnimatedHeading
+                    text="Certifications"
+                    gradientClasses="from-cyan-400 to-blue-600"
+                    borderColors={["#22d3ee", "#2563eb"]} // Cyan-400, Blue-600
+                />
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     {certifications.map((cert, index) => (
