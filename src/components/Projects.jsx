@@ -12,7 +12,7 @@ const projects = [
     {
         title: "Internship Recommender",
         description: "ML-based recommendation system for internships based on preferences.",
-        tags: ["Python", "Machine Learning", "Scikit-learn"],
+        tags: ["Python", "Machine Learning", "TF-IDF Vectorizer"],
         link: "#"
     },
     {
