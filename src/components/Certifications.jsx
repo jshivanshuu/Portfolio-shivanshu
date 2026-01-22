@@ -14,14 +14,14 @@ const certifications = [
         title: "Algorithmic ToolBox by Coursera",
         issuer: "Coursera",
         date: "2025",
-        link: "https://www.coursera.org/algorithmic-toolbox",
+        link: "https://drive.google.com/file/d/1eiz9ha-Re8nRjUXxTQJMWXB8vOAUn9hB/view?usp=drive_link",
         description: "Professional certification for advanced algorithms and data structures."
     },
     {
         title: "Fundamentals of peer to peer networks by Coursera",
         issuer: "Coursera",
         date: "2025",
-        link: "https://www.coursera.org/peer-to-peer-networks",
+        link: "https://drive.google.com/file/d/1XtH7S93TqnCwnf0FY2jatWgOoGZOx142/view?usp=drive_links",
         description: "Mastered the foundations of peer to peer networks."
     },
     {
