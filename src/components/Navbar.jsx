@@ -41,7 +41,7 @@ const Navbar = () => {
                 <a
                     href="#hero"
                     onClick={(e) => scrollToSection(e, '#hero')}
-                    className="text-2xl font-bold bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent"
+                    className="text-4xl font-bold bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent font-great-vibes"
                 >
                     SJ.
                 </a>

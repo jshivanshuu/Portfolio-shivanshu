@@ -57,7 +57,7 @@ const Hero = () => {
                             <motion.a
                                 whileHover={{ scale: 1.1 }}
                                 whileTap={{ scale: 0.95 }}
-                                href="/resume.pdf"
+                                href="https://drive.google.com/file/d/1CBuf92FJAjqv7bkzthZImDfj-nF_n_np/view?usp=drive_link"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="p-3 bg-white/5 border border-white/10 rounded-full hover:bg-white/10 hover:border-accent/50 transition-colors"

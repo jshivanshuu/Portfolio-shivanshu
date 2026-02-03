@@ -42,8 +42,9 @@ const Projects = () => {
                             key={index}
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
+                            whileHover={{ scale: 1.05, y: -5 }}
                             transition={{ delay: index * 0.2 }}
-                            className="group relative bg-[#1a1a1a] rounded-2xl overflow-hidden hover:-translate-y-2 transition-transform duration-300"
+                            className="group relative bg-[#1a1a1a] rounded-2xl overflow-hidden transition-transform duration-300"
                         >
                             <div className="h-48 bg-gray-800 flex items-center justify-center group-hover:bg-gray-700 transition-colors">
                                 <span className="text-gray-500 text-4xl">Project UI</span>

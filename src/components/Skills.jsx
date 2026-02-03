@@ -29,6 +29,7 @@ const Skills = () => {
                             key={skillGroup.category}
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
+                            whileHover={{ scale: 1.05 }}
                             transition={{ delay: index * 0.2, duration: 0.5 }}
                             className="bg-glass-white backdrop-blur-md p-6 rounded-2xl border border-glass-white/10 hover:border-accent/50 transition-colors"
                         >
