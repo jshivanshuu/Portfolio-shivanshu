@@ -4,10 +4,10 @@ import CyberBackground from './CyberBackground';
 
 const certifications = [
     {
-        title: "CEH Certification (Ongoing)",
+        title: "CEH Certification ",
         issuer: "EC-Council",
         date: "2025",
-        link: "https://www.ec-council.org/ceh",
+        link: "https://drive.google.com/file/d/1-sfcM1v5WJr4vXXkIRCVY7EL4Ev9wTnj/view?usp=sharing",
         description: "Validated expertise in understanding cyber security."
     },
     {
