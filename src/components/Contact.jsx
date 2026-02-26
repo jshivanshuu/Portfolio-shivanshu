@@ -1,12 +1,12 @@
 import React from 'react';
-import SectionBackground from './SectionBackground';
+import NetworkBackground from './NetworkBackground';
 
 import AnimatedHeading from './AnimatedHeading';
 
 const Contact = () => {
     return (
         <section id="contact" className="py-20 px-8 bg-primary text-center text-secondary border-t border-white/5 relative overflow-hidden">
-            <SectionBackground />
+            <NetworkBackground />
             <div className="relative z-10">
                 <AnimatedHeading
                     text="Let's Connect"

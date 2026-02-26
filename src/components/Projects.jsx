@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import SectionBackground from './SectionBackground';
+import CyberBackground from './CyberBackground';
 
 const projects = [
     {
@@ -27,8 +27,8 @@ import AnimatedHeading from './AnimatedHeading';
 
 const Projects = () => {
     return (
-        <section id="projects" className="py-20 px-8 bg-primary text-secondary relative overflow-hidden">
-            <SectionBackground />
+        <section id="projects" className="py-20 px-8 bg-[#0f0f0f] text-secondary relative overflow-hidden">
+            <CyberBackground />
             <div className="max-w-6xl mx-auto relative z-10">
                 <AnimatedHeading
                     text="Featured Work"

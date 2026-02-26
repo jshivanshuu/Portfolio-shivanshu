@@ -1,11 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import SectionBackground from './SectionBackground';
+import NetworkBackground from './NetworkBackground';
 
 const Hero = () => {
     return (
         <section id="hero" className="h-screen w-full flex flex-col justify-center items-center bg-primary text-secondary relative overflow-hidden">
-            <SectionBackground />
+            <NetworkBackground />
 
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
