@@ -16,10 +16,10 @@ const projects = [
         link: "#"
     },
     {
-        title: "False-Front (ongoing)",
+        title: "False-Front",
         description: "Advanced deceptive technology system for cybersecurity defense.",
         tags: ["Cybersecurity", "Deception Tech", "Defense"],
-        link: "#"
+        link: "https://github.com/jshivanshuu/False-Front"
     },
 ];
 
