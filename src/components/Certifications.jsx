@@ -25,7 +25,7 @@ const certifications = [
         description: "Mastered the foundations of peer to peer networks."
     },
     {
-        title: "Operating Systems and you:Becoming a power user by Coursera",
+        title: "Operating Systems and you:Becoming a power user by Google",
         issuer: "Coursera",
         date: "2025",
         link: "https://coursera.org/share/30ff0d905b59560db1e0e41ba85fcfe3",
