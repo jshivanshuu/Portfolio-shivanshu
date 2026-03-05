@@ -21,14 +21,14 @@ const certifications = [
         title: "Fundamentals of peer to peer networks by Coursera",
         issuer: "Coursera",
         date: "2025",
-        link: "https://drive.google.com/file/d/1XtH7S93TqnCwnf0FY2jatWgOoGZOx142/view?usp=drive_links",
+        link: "https://coursera.org/share/57fea5f67c10e1f15c7981a8a39cb3e5",
         description: "Mastered the foundations of peer to peer networks."
     },
     {
         title: "Operating Systems and you:Becoming a power user by Coursera",
         issuer: "Coursera",
         date: "2025",
-        link: "https://www.coursera.org/peer-to-peer-networks",
+        link: "https://coursera.org/share/30ff0d905b59560db1e0e41ba85fcfe3",
         description: "Mastered the foundations of Operating Systems."
     },
 ];
